@@ -1,0 +1,13 @@
+# concatOdds
+- expect concatOdds([x], [y]) to take two arrays as parameters
+- expect concatOdds([x], [y]) to filter out even numbers
+- expect concatOdds([x], [y]) to filter out odd numbers
+- expect concatOdds([x], [y]) to return a single array 
+- expect concatOdds([x], [y]) to return only odds in the array
+- expect concatOdds([x], [y]) to not accept any non-numerical input
+- expect concatOdds([x], [y]) to only accept defined paramters
+- expect concatOdds([x], [y]) to ignore repetitive numbers
+- expect concatOdds([x], [y]) to return array with odd numbers from least to greatest value
+- expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to return the array [-1, 1, 3, 9, 15]
+- expect concatOdds([4, 5, 8, 9], [1, 3, 4, 7, 8]) to return the array [1, 3, 5, 7]
+- expect concatOdds([4, 7, e], [5, 'dog', &&]) to return either the array [5, 7] and filter out non-numerical values
